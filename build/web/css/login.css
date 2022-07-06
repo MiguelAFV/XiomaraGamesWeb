@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gugi', cursive;
+}
+body{
+    background: url(../img/login/fondo-juego.jpg);
+    background-size: 100%;
+    
+}
+p{
+    font-size: 25px;
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    margin-left: 110px;
+    font-family: 'Gugi', cursive;
+    font-weight: 900;
+    text-decoration: none;
+}
+#caja2{
+    
+    width: 400px;
+    height: 350px;
+    background: black;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 15px;
+    border-right: 25px solid gray;
+    border-left: 25px solid gray;
+    border-top: 25px solid gray;
+    opacity: 0.9;
+}
+.leer{
+    width: 250px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.btnIngreso{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 40px;
+    font-size: 18px;
+    background: brown;
+    color: white;
+}
+.btnRegistro{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: -50px;
+    font-size: 18px;
+    background: brown;
+    color: white;
+}
+#caja1{
+    background: url(../img/login/franja.jpg);
+    opacity: 0.9;
+}
+.mando{
+    margin-left: 880px;
+    margin-top: -55px;
+    position: absolute;
+
+}
+#titulo{
+    height: 62px;
+    width: 500px;
+    margin-left: 380px;
+    font-size: 50px;
+    font-weight: 800;
+}

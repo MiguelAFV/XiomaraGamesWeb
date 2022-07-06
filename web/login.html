@@ -1,0 +1,38 @@
+
+<html>
+    <head>
+        <title>Inicia Sesion en Xiomara Games</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/login.css"/>
+        <script src="js/js.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="caja1">
+            <a href="index.jsp"><p id="titulo">Xiomara Games</p></a>
+        </div>
+        <div class="mando"><img src="img/login/mando.png" width="50" alt=""></div>
+        <hr>
+        <div id="caja2">
+            <form action="Controlador" method="post">
+                <p id="parrafo">INICIAR SESIÓN</p>
+                <hr>
+                <br><br>
+                <label>NOMBRE DE USUARIO :</label>
+                <br><br>
+                <input type="text" id="usuario" class="leer" name="usuario" maxlength="20" required autofocus>
+                <br><br>
+                <label>CONTRASEÑA :</label>
+                <br><br>
+                <input type="password" id="password" class="leer" name="password" maxlength="20" required>
+                <br><br><br>
+                <input type="submit" value="Ingresar" class="btnIngreso" >
+                <input type="hidden" name="accion" value="ValidarLoginCliente">
+            </form>
+            <form method="POST" action="Controlador" >
+                <input type="hidden" name="accion" value="goRegistrar">
+                <input type="submit" value="Registrar" class="btnRegistro" >
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Registrate en Xiomara Games</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/registro.css" rel="stylesheet" type="text/css"/>
+        <link href="font/icomoon/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="capa0">
+            <h1 id="titulo">Crear una Cuenta</h1>
+            <hr>
+            <div id="capa1">
+                <form action="Controlador" method="POST">
+                    <input type="hidden" name="accion" value = "RegistrarCliente">
+                    <table>
+                        <tr>
+                            <td><span id="icono"  class="icon-user"></span></td>
+                            <td><input class="input" type="text" name="r_usuario" placeholder="Usuario" maxlength="20" required autofocus></td>
+                        </tr>
+                        <tr>
+                            <td><span id="icono" class="icon-v-card"></span></td>
+                            <td><input class="input" type="text" name="r_dni" placeholder="DNI" maxlength="8" required></td>
+                        </tr>
+                        <tr>
+                            <td><span id="icono" class="icon-v-card"></span></td>
+                            <td><input class="input" type="text" name="r_nombres" placeholder="Nombres" maxlength="50" required></td>
+                        </tr>
+                        <tr>
+                            <td><span id="icono"  class="icon-v-card"></span></td>
+                            <td><input class="input" type="text" name="r_apepater" placeholder="Apellido Paterno" maxlength="20" required ></td>
+                        </tr>
+                        <tr>
+                            <td><span id="icono"  class="icon-v-card"></span></td>
+                            <td><input class="input" type="text" name="r_apemater" placeholder="Apellido Materno" maxlength="20" required ></td>
+                        </tr>
+                        <tr>
+                            <td><span id="icono"  class="icon-calendar r"></span></td>
+                            <td><input class="input"  name="r_fecha" type="date" style="font-family:Arial" required></td>
+                        </tr>
+                        <tr>
+                            <td><span id="icono"  class="icon-phone"></span></td>
+                            <td><input class="input" type="number" name="r_telefono" placeholder="Teléfono" required></td>
+                        </tr>
+                        <tr>
+                            <td><span id="icono"  class="icon-mail"></span></td>
+                            <td><input class="input" type="email" name="r_correo" placeholder="E-mail" maxlength="50" required></td>
+                        </tr>
+                        <tr>
+                            <td><span id="icono"  class="icon-lock"></span></td>
+                            <td><input class="input" type="password" name="r_contra" placeholder="Contraseña" maxlength="20" required></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan='2'><input class="botonRegistro" type="submit" value="REGISTRARSE"></td>
+                        </tr>
+
+                    </table>
+
+                </form>
+            </div>
+        </div>
+        <div id="capa2">
+            <p class="volver"><a style="color: white" href="login.html">Volver al Login</a></p>
+        </div>
+    </body>
+</html>

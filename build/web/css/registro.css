@@ -1,0 +1,91 @@
+.input{
+    background-color: #EFEFEF;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: solid #C8C8C8 5px;
+    transition: all 0.5s;
+}
+body{
+    background: url(../img/registro/fondoGris.jpg);
+}
+
+.input:focus{
+    border-bottom: solid #AD5929 5px;
+    transition: all 1s;
+}
+
+.input{
+    width: 300px;
+    height: 49px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 13px;
+    
+}
+#icono{
+    font-size: 28px;
+    background-color: #446191;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: solid #3C4D69 5px;
+    transition: all 0.5s;
+    color: white;
+}
+#titulo{
+    position: relative;
+    color: white;
+    font-family: arial;
+    margin-left: 150px;
+    top: 10px;
+}
+
+#capa0{
+    width: 600px;
+    border-radius: 25px;
+    background: #353C3D;
+    margin-left: 350px;
+    margin-top: 50px;
+    border-top: 10px solid #282C2C;
+}
+#capa1{
+    margin-left: 100px;
+    margin-top: 0px;
+    width: 400px;
+    height: 800px;
+}
+.botonRegistro{
+    font-size: 20px;
+    background-color: #446191;
+    padding: 20px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: solid #3C4D69 5px;
+    transition: all 0.5s;
+    color: white;
+    margin-left: 90px;
+}
+
+.botonRegistro:hover{
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: solid black 5px;
+    background-color: #323444;
+    color: white;
+    transition: all 0.5;
+    margin-left: 90px;
+}
+#capa2{
+    width: 350px;
+}
+.volver{
+    margin: 10px;
+    padding: 10px;  
+    font-size: 25px;
+    color: white;
+}
